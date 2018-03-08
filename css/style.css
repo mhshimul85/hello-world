@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background: #bfdadc;
+}
 h1{
   text-align: center;
-  color: #bfdadc;
+  color: #FFFFFF;
+  font-size: 550%;
 }
