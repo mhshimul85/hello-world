@@ -3,10 +3,64 @@
   padding: 0;
 }
 body{
-  background: #bfdadc;
+
 }
-h1{
-  text-align: center;
-  color: red;
-  font-size: 550%;
+.container{
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 35px gray;
+  box-sizing: border-box;
+  min-height: 680px;
+}
+.header{
+  color: #fff;
+  background: #96ceb4;
+  padding: 10px 20px;
+}
+.header h2,
+.header h3{
+    font-weight: normal;
+}
+.article{
+  background: #b5e7a0;
+  padding: 10px 20px;
+}
+.article p{
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.photo{
+  background: #fff;
+  padding: 10px 20px;
+}
+.photo img{
+  float: left;
+  display: block;
+  padding: 10px;
+  width: 25%;
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+}
+.photo img:hover{
+  transform: scale(1.05) rotate(3deg);
+  -webkit-transform: scale(1.05) rotate(3deg);
+  -ms-transform: scale(1.05) rotate(3deg);
+  transition: all 0.5s ease-out;
+}
+.footer{
+  background: #dac292;
+  padding: 20px 20px;
+}
+
+/* Clearfix*/
+.clearFix:before,
+.clearFix:after{
+  content: "";
+  display: table;
+}
+.clearFix:after{
+  clear: both;
+}
+.clearFix{
+  zoom: 1;
 }
