@@ -53,11 +53,15 @@ body{
   box-sizing: border-box;
   transition: all 0.5s ease-out;
 }
+.photo:hover img{
+  opacity: 0.5;
+}
 .photo img:hover{
   transform: scale(1.05) rotate(3deg);
   -webkit-transform: scale(1.05) rotate(3deg);
   -ms-transform: scale(1.05) rotate(3deg);
   transition: all 0.5s ease-out;
+  opacity: 1;
 }
 .footer{
   background: #dac292;
