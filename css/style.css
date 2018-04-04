@@ -17,9 +17,16 @@ body{
   background: #96ceb4;
   padding: 10px 20px;
 }
-.header h2,
+.header h1,
 .header h3{
     font-weight: normal;
+}
+.banner{
+  padding: 20px 20px 15px 20px;
+}
+.banner img{
+  width: 100%;
+  height: auto;
 }
 .article{
   background: #b5e7a0;
