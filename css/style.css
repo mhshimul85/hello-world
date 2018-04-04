@@ -6,11 +6,16 @@ body{
 
 }
 .container{
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   box-shadow: 2px 2px 35px gray;
   box-sizing: border-box;
-  min-height: 680px;
+}
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 .header{
   color: #fff;
